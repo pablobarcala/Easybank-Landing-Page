@@ -6,5 +6,21 @@
 
 :root {
     font-size: 18px;
-    font-family: "Public Sans";
+    --FONT-FAMILY: "Public Sans";
+    --WHITE: hsl(0, 0%, 100%);
+    --GREEN: hsl(136, 65%, 51%);
+    --CYAN: hsl(192, 70%, 51%);
+    font-family: var(--FONT-FAMILY);
+}
+
+button {
+    border: none;
+    padding: 15px 30px;
+    border-radius: 50px;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: var(--FONT-FAMILY);
+    color: var(--WHITE);
+    background-image: linear-gradient(to right, var(--GREEN), var(--CYAN));
+    
 }
