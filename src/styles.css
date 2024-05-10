@@ -3,3 +3,8 @@
     margin: 0;
     padding: 0;
 }
+
+:root {
+    font-size: 18px;
+    font-family: "Public Sans";
+}
