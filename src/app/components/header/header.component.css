@@ -3,6 +3,9 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: relative;
+    background-color: var(--WHITE);
+    z-index: 4;
 }
 
 ul {

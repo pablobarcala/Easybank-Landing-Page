@@ -15,6 +15,7 @@
     --GRAY-BLUE: hsl(233, 8%, 62%);
     --LIGHT-GRAY-BLUE: hsl(220, 16%, 96%);
     font-family: var(--FONT-FAMILY);
+    overflow-x: hidden;
 }
 
 button {
