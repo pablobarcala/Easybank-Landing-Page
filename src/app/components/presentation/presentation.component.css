@@ -1,0 +1,28 @@
+.container {
+    padding-left: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--LIGHT-GRAY);
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 25%;
+}
+
+h1 {
+    font-weight: 300;
+    color: var(--DARK-BLUE);
+    font-size: 2.5rem;
+}
+
+p {
+    color: var(--GRAY-BLUE);
+}
+
+button {
+    width: fit-content;
+}

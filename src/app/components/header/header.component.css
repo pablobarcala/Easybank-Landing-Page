@@ -16,9 +16,9 @@ li {
     list-style: none;
     padding: 30px;
     font-weight: 300;
-    color: hsl(0, 0%, 59%);
+    color: var(--GRAY-BLUE);
 }
 
 li:hover {
-    color: #000;
+    color: var(--DARK-BLUE);
 }
