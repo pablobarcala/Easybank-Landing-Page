@@ -1,0 +1,34 @@
+.container {
+    background-color: var(--LIGHT-GRAY-BLUE);
+    padding: 100px;
+}
+
+.title {
+    width: 70%;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 300;
+    padding-bottom: 30px;
+}
+
+.items {
+    padding-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+h3 {
+    font-weight: 300;
+}
