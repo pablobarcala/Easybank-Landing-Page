@@ -1,0 +1,66 @@
+.container {
+    padding: 50px 100px;
+    background-color: var(--DARK-BLUE);
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-redes,
+.button {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.redes {
+    cursor: pointer;
+    display: flex;
+    gap: 10px;
+}
+
+.links {
+    width: 20%;
+}
+
+.links,
+.col {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col {
+    flex-direction: column;
+    gap: 30px;
+}
+
+a {
+    color: var(--WHITE);
+    text-decoration: none;
+}
+
+.button {
+    align-items: flex-end;
+}
+
+button {
+    width: fit-content;
+}
+
+.rights {
+    font-weight: 300;
+    font-size: 0.8rem;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    padding-top: 50px;
+    color: var(--WHITE);
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
