@@ -21,6 +21,10 @@
     gap: 10px;
 }
 
+svg:hover path {
+    fill: var(--GREEN);
+}
+
 .links {
     width: 20%;
 }
@@ -42,6 +46,7 @@ a {
     text-decoration: none;
 }
 
+a:hover path, 
 a:hover {
     color: var(--GREEN);
 }
