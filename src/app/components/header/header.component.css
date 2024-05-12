@@ -15,6 +15,8 @@ ul {
 }
 
 li {
+    box-sizing: border-box;
+    border-bottom: 5px solid transparent;
     cursor: pointer;
     list-style: none;
     padding: 30px;
@@ -24,4 +26,6 @@ li {
 
 li:hover {
     color: var(--DARK-BLUE);
+    border-bottom: 5px solid;
+    border-image: linear-gradient(to right, var(--GREEN), var(--CYAN)) 1;
 }

@@ -37,8 +37,13 @@
 }
 
 a {
+    cursor: pointer;
     color: var(--WHITE);
     text-decoration: none;
+}
+
+a:hover {
+    color: var(--GREEN);
 }
 
 .button {

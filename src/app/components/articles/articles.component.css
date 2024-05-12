@@ -44,4 +44,9 @@ img {
 h4 {
     font-weight: 300;
     font-size: 1.2rem;
+    cursor: pointer;
+}
+
+h4:hover {
+    color: var(--GREEN);
 }
