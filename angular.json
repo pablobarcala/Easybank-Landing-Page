@@ -88,6 +88,23 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {
+            "version": 2
+          },
+          "configurations": {
+            "production": {
+              "buildTarget": "easybank-landing-page:build:production",
+              "serveTarget": "easybank-landing-page:serve:production"
+            },
+            "development": {
+              "buildTarget": "easybank-landing-page:build:development",
+              "serveTarget": "easybank-landing-page:serve:development"
+            }
+          },
+          "defaultConfiguration": "production"
         }
       }
     }

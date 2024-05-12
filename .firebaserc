@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "easybank-dfcd9": {
+      "hosting": {
+        "easybank-landing-page": [
+          "easybank-dfcd9"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "easybank-dfcd9"
+  }
+}
