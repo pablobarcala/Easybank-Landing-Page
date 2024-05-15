@@ -42,3 +42,29 @@ button {
     top: -5%;
     z-index: 3;
 }
+
+@media screen and (max-width: 600px) {
+    .container {
+        padding: 0;
+        flex-direction: column-reverse;
+    }
+
+    .img {
+        height: 500px;
+    }
+
+    .img img:first-child {
+        top: -70%;
+        right: 70%;
+        transform: scale(0.5);
+    }
+    
+    .img img:last-child {
+        transform: scale(0.5);
+        right: 50%;
+        right: 0;
+        top: 0;
+        top: -30%;
+        left: -40%;
+    }
+}
