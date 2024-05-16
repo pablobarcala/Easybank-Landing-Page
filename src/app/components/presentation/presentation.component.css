@@ -49,22 +49,35 @@ button {
         flex-direction: column-reverse;
     }
 
+    .text {
+        box-sizing: border-box;
+        align-items: center;
+        width: 100%;
+        padding: 20px;
+    }
+
+    h1, p {
+        text-align: center;
+    }
+
     .img {
-        height: 500px;
+        height: 300px;
     }
 
     .img img:first-child {
-        top: -70%;
+        top: -150%;
         right: 70%;
         transform: scale(0.5);
     }
     
     .img img:last-child {
-        transform: scale(0.5);
-        right: 50%;
-        right: 0;
-        top: 0;
-        top: -30%;
-        left: -40%;
+        transform: scale(0.5) translateX(25%);
+        top: -35%;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .img img:last-child {
+        transform: scale(0.5) translateX(40%);
     }
 }
